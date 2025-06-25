@@ -6,7 +6,7 @@ const Hero = () => {
     <div>
       <div className="text-center mt-6  w-fit mx-auto px-10 relative">
         <Image
-          src={"/image.png"}
+          src={"/herosmallimg.png"}
           width={50}
           height={50}
           alt="herosmallimg"
@@ -32,6 +32,7 @@ const Hero = () => {
           Talk to our Tech Expert
         </button>
       </div>
+      <div className="bg-[url('/image.png')] bg-cover h-86 mt-6"></div>
     </div>
   )
 }
