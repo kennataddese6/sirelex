@@ -2,9 +2,9 @@ import Image from "next/image"
 import { FaArrowRightLong } from "react-icons/fa6"
 const Navbar = () => {
   return (
-    <header className="px-16 flex justify-between items-center py-5">
+    <header className="px-16 flex justify-between items-center py-6">
       <div>
-        <Image src={"/image.png"} width={175} height={175} alt="Logo Image" />
+        <Image src={"/logo.png"} width={175} height={175} alt="Logo Image" />
       </div>
       <ul className="flex gap-16">
         <li>About Us</li>
