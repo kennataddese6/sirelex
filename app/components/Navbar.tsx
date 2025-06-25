@@ -14,7 +14,7 @@ const Navbar = () => {
       </ul>
       <button className="bg-[#214dd0] font-semibold py-2 px-6 text-white rounded-full">
         Get Demo
-        <FaArrowRightLong />
+        <FaArrowRightLong className="inline ml-2" fontSize={12} />
       </button>
     </header>
   )
