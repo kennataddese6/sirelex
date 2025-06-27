@@ -7,7 +7,7 @@ const Hero = () => {
         src={"/facebooklogo.png"}
         width={20}
         height={20}
-        alt="facbeook logo"
+        alt="Facbeook logo"
         className="absolute z-20 left-[50%] top-1/4"
       />
       <Image
@@ -42,7 +42,7 @@ const Hero = () => {
           <p className="mt-5 text-lg">
             Sirelex is a startup agency providing exceptional web
             design/development, Social Media Management, Search Engine
-            Optimization, Video Editing, Logo Design and Graphic Design more.
+            Optimization, Video Editing, Logo Design and Graphic Design.
           </p>
           <button className="mt-5 bg-[dodgerblue] text-white py-2 px-8 rounded-full font-semibold cursor-pointer">
             Let&apos;s Chat
