@@ -1,38 +1,35 @@
-import Image from "next/image"
-import { FaArrowRightLong } from "react-icons/fa6"
-
 const Hero = () => {
   return (
-    <div>
-      <div className="text-center mt-6  w-fit mx-auto px-10 relative">
-        <Image
-          src={"/herosmallimg.png"}
-          width={50}
-          height={50}
-          alt="herosmallimg"
-          className="absolute left-0"
-        />
-        <h1 className="text-8xl font-semibold">
-          AI-Powered Hiring,
-          <br />
-          Real-World Impact.
-        </h1>
+    <div className="h-screen relative ">
+      <div className="absolute inset-0 backdrop-blur-2xl bg-white/10 border border-white/20 shadow-lg shadow-white/10 rounded-xl z-10" />
+      <div className="w-[34rem] h-[34rem] bg-[dodgerblue] rounded-full absolute z-0 top-[60%] left-[71%] -translate-1/2  blur-2xl"></div>
+      <div className="relative z-20 flex items-center h-screen px-36 gap-12">
+        <div className="w-1/2">
+          <h1 className="text-5xl font-bold">
+            <span className="text-[dodgerblue] font-extrabold">Grow </span>
+            your Buisness with our digital solutions
+          </h1>
+          <p className="mt-5 text-lg">
+            Sirelex is a startup agency providing exceptional web
+            design/development, Social Media Management, Search Engine
+            Optimization, Video Editing, Logo Design and Graphic Design more.
+          </p>
+          <button className="mt-5 bg-[dodgerblue] text-white py-2 px-8 rounded-full font-semibold cursor-pointer">
+            Let's Chat
+          </button>
+          <span className="ml-3"> +1 (530) 712-3425</span>
+        </div>
+        <div className="bg-[url('/heroimage.png')] bg-[right_top_4rem] bg-size-[auto_42rem] bg-no-repeat w-1/2 h-full bg-cover"></div>
+        {/*        <div className="w-1/2">
+          <Image
+            src={"/heroimage.png"}
+            width={975}
+            height={775}
+            alt="hero image"
+            className="w-full h-screen object-cover"
+          />
+        </div> */}
       </div>
-      <p className="text-center mt-4 text-2xl text-black/60">
-        Experience a recruitment revolution with our AI-powered platform that{" "}
-        <br />
-        streamlines hiring processes and enhance candidate management
-      </p>
-      <div className="mt-5 text-center">
-        <button className="bg-[#fe6347] font-semibold py-2 px-6 text-white rounded-full">
-          Get a Demo
-          <FaArrowRightLong className="inline ml-2" fontSize={12} />
-        </button>
-        <button className="text-[#214dd0] font-bold ring-1 ring-[#214dd0] mx-3  py-2 px-6  rounded-full">
-          Talk to our Tech Expert
-        </button>
-      </div>
-      <div className="bg-[url('/image.png')] bg-cover h-86 mt-6"></div>
     </div>
   )
 }
