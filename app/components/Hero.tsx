@@ -17,18 +17,9 @@ const Hero = () => {
           <button className="mt-5 bg-[dodgerblue] text-white py-2 px-8 rounded-full font-semibold cursor-pointer">
             Let's Chat
           </button>
-          <span className="ml-3"> +1 (530) 712-3425</span>
+          <span className="ml-3 text-sm"> +1 (530) 712-3425</span>
         </div>
-        <div className="bg-[url('/heroimage.png')] bg-[right_top_4rem] bg-size-[auto_42rem] bg-no-repeat w-1/2 h-full bg-cover"></div>
-        {/*        <div className="w-1/2">
-          <Image
-            src={"/heroimage.png"}
-            width={975}
-            height={775}
-            alt="hero image"
-            className="w-full h-screen object-cover"
-          />
-        </div> */}
+        <div className="bg-[url('/heroimagecropped.png')] bg-[center_top_3rem]  bg-no-repeat w-1/2 h-full bg-cover"></div>
       </div>
     </div>
   )
