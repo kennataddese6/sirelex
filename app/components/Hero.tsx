@@ -7,7 +7,7 @@ const Hero = () => {
         <div className="w-1/2">
           <h1 className="text-5xl font-bold">
             <span className="text-[dodgerblue] font-extrabold">Grow </span>
-            your Buisness with our digital solutions
+            your Business with our digital solutions
           </h1>
           <p className="mt-5 text-lg">
             Sirelex is a startup agency providing exceptional web
@@ -15,7 +15,7 @@ const Hero = () => {
             Optimization, Video Editing, Logo Design and Graphic Design more.
           </p>
           <button className="mt-5 bg-[dodgerblue] text-white py-2 px-8 rounded-full font-semibold cursor-pointer">
-            Let's Chat
+            Let&apos;s Chat
           </button>
           <span className="ml-3 text-sm"> +1 (530) 712-3425</span>
         </div>
